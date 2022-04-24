@@ -1,0 +1,21 @@
+{
+    "name": "ponomarenko/ipparser",
+    "description": "Ip Parser",
+    "type": "library",
+    "require": {
+        "geoip2/geoip2": "^2.0",
+        "illuminate/support": "^9.9.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "blackbender",
+            "email": "ponomarenko02112000@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\Services\\IpParser": "app/"
+        }
+    }
+}
